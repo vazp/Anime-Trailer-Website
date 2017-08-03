@@ -138,6 +138,7 @@ video_tile_content = '''
             </div>
 '''
 
+
 def create_video_tiles_content(video):
     # The HTML content for this section of the page
     content = ''
@@ -158,6 +159,7 @@ def create_video_tiles_content(video):
             video_year=video_entry.year
         )
     return content
+
 
 def open_video_page(video):
     # Create or overwrite the output file
